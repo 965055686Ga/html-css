@@ -1,0 +1,52 @@
+|<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        div{
+            text-align: center;
+        }
+
+        .animated-word {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .latter {
+            transition: 0.4s;
+            transform: translateX(0);
+            cursor:grab;
+            color: #fff; 
+        }
+
+        .latter:hover {
+            transform: translatey(-16px);
+            background: -webkit-linear-gradient(120deg,hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+            -webkit-background-clip: text;
+            -webkit-background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="animatsd-word">
+        <div class="latter">d</div>
+        <div class="latter">e</div>
+        <div class="latter">v</div>
+        <div class="latter">e</div>
+        <div class="latter">l</div>
+        <div class="latter">a</div>
+        <div class="latter">n</div>
+        <div class="latter">d</div>
+        
+    </div>
+</body>
+</html>
