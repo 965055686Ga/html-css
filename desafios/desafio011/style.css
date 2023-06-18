@@ -18,6 +18,8 @@
 }
 
 body {
+    
+    
 
 }
 
@@ -41,6 +43,7 @@ header p {
 
 section {
     font-family: var(--fonte3);
+    
 }
 
 section p {
@@ -50,7 +53,37 @@ section p {
     font-size: 1.2em;
 }
 
-.p2 {
+div {
+    background-color: black;
     background-image: url('imagens/background001.jpg');
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
     
+}
+
+.p2 {
+    color: white;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+.p3 {
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    padding: 10px;
 }
