@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    font-size: 4em;
+    padding: 10px;
+}
+
+header p {
+    font: var(--fonte2);
+
+}
+
+section {
+    font-family: var(--fonte3);
+}
+
+section p {
+    line-height: 2em;
+    text-indent: 30px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.p2 {
+    background-image: url('imagens/background001.jpg');
+    
+}
